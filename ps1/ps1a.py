@@ -25,7 +25,7 @@ while current_savings < portion_down_payment:
     current_savings += monthly_addition + monthly_return
     # adding accumulated monthly investment and savings
     monthly_return = current_savings * ( rate / 12 )
-    # reaccounting for the increased value of the current savings
+    # accounting for the increased value of the current savings
     months += 1
     
 print("Number of months:", months)
