@@ -249,4 +249,3 @@ if __name__ == "__main__":
     suite.addTest(unittest.makeSuite(ProblemSet5NewsStory))
     suite.addTest(unittest.makeSuite(ProblemSet5))
     unittest.TextTestRunner(verbosity=2).run(suite)
-
